@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isPalindrome(long long x) {
+    bool isPalindrome(int x) {
         if(x<0)
             return false;
         long long newint=0;
