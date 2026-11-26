@@ -4,8 +4,7 @@ public:
         if(x<0)
             return false;
         long long newint=0;
-        int temp=x;
-        int r;
+        int temp=x,r;
         while(temp>0)
         {
             r=temp%10;
