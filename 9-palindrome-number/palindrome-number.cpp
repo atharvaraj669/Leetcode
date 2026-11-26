@@ -2,9 +2,7 @@ class Solution {
 public:
     bool isPalindrome(int x) {
         if(x<0)
-        {
             return false;
-        }
         long long newint=0;
         int temp=x;
         int r;
