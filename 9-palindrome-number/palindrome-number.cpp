@@ -3,7 +3,7 @@ public:
     bool isPalindrome(int x) {
         if(x<0)
             return false;
-        long newint=0;
+        long long newint=0;
         int temp=x,r;
         while(temp>0)
         {
